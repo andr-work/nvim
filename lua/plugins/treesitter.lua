@@ -1,6 +1,6 @@
 local parsers = {
   'bash', 'c', 'css', 'diff', 'dockerfile', 'git_config', 'gitcommit', 'go',
-  'html', 'java', 'javascript', 'json', 'kotlin', 'lua', 'luadoc', 'markdown',
+  'html', 'javascript', 'json', 'kotlin', 'lua', 'luadoc', 'markdown',
   'markdown_inline', 'python', 'query', 'regex', 'sql', 'toml', 'tsx',
   'typescript', 'vim', 'vimdoc', 'xml', 'yaml',
 }
