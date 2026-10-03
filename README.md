@@ -1,6 +1,6 @@
 # nvim
 
-Neovim の個人設定。asakamak の設定を元にしている。
+Neovim の個人設定。
 
 ## 必要なもの
 
