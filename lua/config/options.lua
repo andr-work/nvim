@@ -7,10 +7,10 @@ vim.g.loaded_ruby_provider = 0
 local o = vim.o
 
 -- 表示
-o.number = true
-o.relativenumber = true
+o.number = false
+o.relativenumber = false
 o.cursorline = true
-o.signcolumn = 'yes'
+o.signcolumn = 'auto'
 o.wrap = false
 o.scrolloff = 4
 o.sidescrolloff = 8
