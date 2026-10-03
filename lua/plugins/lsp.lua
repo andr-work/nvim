@@ -9,7 +9,7 @@ return {
     require('mason').setup(opts)
 
     -- 設定本体は ~/.config/nvim/lsp/<名前>.lua
-    vim.lsp.enable({ 'jdtls', 'pyright' })
+    vim.lsp.enable({ 'pyright' })
 
     vim.diagnostic.config({
       virtual_text = true,

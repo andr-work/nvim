@@ -21,7 +21,7 @@ nvim
 ```
 
 初回起動で lazy.nvim が自分をブートストラップし、プラグインと treesitter パーサを取得する。
-LSP サーバ本体は `:Mason` から入れる（現状 jdtls / pyright）。
+Python LSP サーバは `:Mason` で pyright を入れるか、`pyright-langserver` を PATH に追加する。
 
 ## 構成
 
