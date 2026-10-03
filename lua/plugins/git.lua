@@ -4,12 +4,12 @@ return {
   event = { 'BufReadPre', 'BufNewFile' },
   opts = {
     signs = {
-      add = { text = '┃' },
-      change = { text = '┃' },
-      delete = { text = '▁' },
-      topdelete = { text = '▔' },
-      changedelete = { text = '~' },
-      untracked = { text = '┆' },
+      add = { text = '█' },
+      change = { text = '█' },
+      delete = { text = '█' },
+      topdelete = { text = '█' },
+      changedelete = { text = '█' },
+      untracked = { text = '█' },
     },
     -- ステージ済み hunk に別サインを出すと意味が増えるので切る
     signs_staged_enable = false,
